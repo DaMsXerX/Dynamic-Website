@@ -1,7 +1,3 @@
-
-
-
-
 @php
     $settings = \App\Models\Setting::first();
     $quickLinks = \App\Models\NavigationLink::where('is_primary', true)
