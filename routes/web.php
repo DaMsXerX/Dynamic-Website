@@ -12,4 +12,4 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/services', [ServicesController::class, 'index'])->name('services');
 Route::get('/projects', [ProjectsController::class, 'index'])->name('projects');
-Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+// Route::get('/contact', [ContactController::class, 'index'])->name('contact');
